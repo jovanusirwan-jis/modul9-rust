@@ -24,18 +24,18 @@ fn main() {
     let mut p = CrosstownBus::new_queue_publisher("amqp://guest:guest@localhost:5672".to_owned()).unwrap(); 
     
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage { 
-        user_id: "1".to_owned(), user_name: "129500004y-Amir".to_owned() 
+        user_id: "1".to_owned(), user_name: "2406434140-Amir".to_owned() 
     }); 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage { 
-        user_id: "2".to_owned(), user_name: "129500004y-Budi".to_owned() 
+        user_id: "2".to_owned(), user_name: "2406434140-Budi".to_owned() 
     }); 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage { 
-        user_id: "3".to_owned(), user_name: "129500004y-Cica".to_owned() 
+        user_id: "3".to_owned(), user_name: "2406434140-Cica".to_owned() 
     }); 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage { 
-        user_id: "4".to_owned(), user_name: "129500004y-Dira".to_owned() 
+        user_id: "4".to_owned(), user_name: "2406434140-Dira".to_owned() 
     }); 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage { 
-        user_id: "5".to_owned(), user_name: "129500004y-Emir".to_owned() 
+        user_id: "5".to_owned(), user_name: "2406434140-Emir".to_owned() 
     }); 
 }
